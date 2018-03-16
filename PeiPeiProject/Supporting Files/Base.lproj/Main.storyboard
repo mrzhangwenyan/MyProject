@@ -30,19 +30,27 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uVz-Au-wtH">
                                 <rect key="frame" x="298" y="70" width="52" height="30"/>
                                 <state key="normal" title="102bug"/>
+
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b60-mE-TUt">
+                                <rect key="frame" x="16" y="70" width="63" height="30"/>
+                                <state key="normal" title="Fdevelop"/>
+
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="b60-mE-TUt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="2kZ-sP-LpF"/>
                             <constraint firstItem="CpN-ar-aAg" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="DA2-Wq-dnP"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uVz-Au-wtH" secondAttribute="trailing" constant="25" id="Gf6-9A-Xa5"/>
                             <constraint firstItem="CpN-ar-aAg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="L3b-pr-lsV"/>
                             <constraint firstItem="8Vu-SU-3oO" firstAttribute="top" secondItem="CpN-ar-aAg" secondAttribute="bottom" constant="20" id="RDD-W8-Dbu"/>
                             <constraint firstItem="uVz-Au-wtH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="UGn-o8-N3i"/>
                             <constraint firstItem="8Vu-SU-3oO" firstAttribute="centerX" secondItem="CpN-ar-aAg" secondAttribute="centerX" id="X7I-2B-fEQ"/>
+                            <constraint firstItem="b60-mE-TUt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="nK3-8f-7t2"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
