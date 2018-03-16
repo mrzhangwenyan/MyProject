@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    UILabel *dLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 180, 60, 35)];
+    dLabel.textColor = [UIColor blueColor];
+    dLabel.text = @"第四个";
+    [self.view addSubview:dLabel];
 }
 
 - (void)didReceiveMemoryWarning {
