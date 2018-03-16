@@ -27,6 +27,11 @@
     bLabel.textColor = [UIColor brownColor];
     bLabel.text = @"第二个";
     [self.view addSubview:bLabel];
+    
+    UILabel *cLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 160, 60, 35)];
+    cLabel.textColor = [UIColor orangeColor];
+    cLabel.text = @"第三个";
+    [self.view addSubview:cLabel];
 }
 
 - (void)didReceiveMemoryWarning {
