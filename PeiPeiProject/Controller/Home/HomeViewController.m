@@ -32,6 +32,12 @@
     cLabel.textColor = [UIColor orangeColor];
     cLabel.text = @"第三个";
     [self.view addSubview:cLabel];
+
+    UILabel *dLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 180, 60, 35)];
+    dLabel.textColor = [UIColor blueColor];
+    dLabel.text = @"第四个";
+    [self.view addSubview:dLabel];
+
 }
 
 - (void)didReceiveMemoryWarning {
