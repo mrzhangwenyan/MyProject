@@ -30,12 +30,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jQm-0v-rZ1">
+                                <rect key="frame" x="309" y="70" width="50" height="30"/>
+                                <state key="normal" title="101Bug"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="CpN-ar-aAg" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="DA2-Wq-dnP"/>
+                            <constraint firstItem="jQm-0v-rZ1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="KR8-9f-yJu"/>
                             <constraint firstItem="CpN-ar-aAg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="L3b-pr-lsV"/>
                             <constraint firstItem="8Vu-SU-3oO" firstAttribute="top" secondItem="CpN-ar-aAg" secondAttribute="bottom" constant="20" id="RDD-W8-Dbu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jQm-0v-rZ1" secondAttribute="trailing" constant="16" id="TFg-XX-HdF"/>
                             <constraint firstItem="8Vu-SU-3oO" firstAttribute="centerX" secondItem="CpN-ar-aAg" secondAttribute="centerX" id="X7I-2B-fEQ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
