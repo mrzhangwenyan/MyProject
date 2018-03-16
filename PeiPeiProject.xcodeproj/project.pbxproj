@@ -8,13 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		7680F19E205B4DF3000389D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7680F19D205B4DF3000389D8 /* AppDelegate.m */; };
-		7680F1A1205B4DF3000389D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7680F1A0205B4DF3000389D8 /* ViewController.m */; };
 		7680F1A4205B4DF3000389D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7680F1A2205B4DF3000389D8 /* Main.storyboard */; };
 		7680F1A6205B4DF3000389D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7680F1A5205B4DF3000389D8 /* Assets.xcassets */; };
 		7680F1A9205B4DF3000389D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7680F1A7205B4DF3000389D8 /* LaunchScreen.storyboard */; };
 		7680F1AC205B4DF3000389D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7680F1AB205B4DF3000389D8 /* main.m */; };
 		7680F1B6205B4DF3000389D8 /* PeiPeiProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7680F1B5205B4DF3000389D8 /* PeiPeiProjectTests.m */; };
 		7680F1C1205B4DF3000389D8 /* PeiPeiProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7680F1C0205B4DF3000389D8 /* PeiPeiProjectUITests.m */; };
+		7680F1E6205B64C7000389D8 /* ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7680F1E5205B64C7000389D8 /* ParentViewController.m */; };
+		7680F1E9205B64DA000389D8 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7680F1E8205B64DA000389D8 /* HomeViewController.m */; };
+		7680F1EC205B64E6000389D8 /* FoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7680F1EB205B64E6000389D8 /* FoundViewController.m */; };
+		7680F1EF205B64F2000389D8 /* DirectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7680F1EE205B64F2000389D8 /* DirectViewController.m */; };
+		7680F1F2205B64FB000389D8 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7680F1F1205B64FB000389D8 /* MineViewController.m */; };
+		7680F1F5205B656B000389D8 /* ZZWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7680F1F4205B656B000389D8 /* ZZWebViewController.m */; };
+		7680F1F8205B6581000389D8 /* ShoppingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7680F1F7205B6581000389D8 /* ShoppingViewController.m */; };
+		7680F1FB205B660E000389D8 /* ZZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7680F1FA205B660E000389D8 /* ZZNavigationController.m */; };
+		7680F1FF205B7181000389D8 /* ZZTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7680F1FE205B7181000389D8 /* ZZTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +46,6 @@
 		7680F199205B4DF3000389D8 /* PeiPeiProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeiPeiProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7680F19C205B4DF3000389D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7680F19D205B4DF3000389D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7680F19F205B4DF3000389D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7680F1A0205B4DF3000389D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7680F1A3205B4DF3000389D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7680F1A5205B4DF3000389D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7680F1A8205B4DF3000389D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +57,25 @@
 		7680F1BC205B4DF3000389D8 /* PeiPeiProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeiPeiProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7680F1C0205B4DF3000389D8 /* PeiPeiProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeiPeiProjectUITests.m; sourceTree = "<group>"; };
 		7680F1C2205B4DF3000389D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7680F1E4205B64C7000389D8 /* ParentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParentViewController.h; sourceTree = "<group>"; };
+		7680F1E5205B64C7000389D8 /* ParentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParentViewController.m; sourceTree = "<group>"; };
+		7680F1E7205B64DA000389D8 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		7680F1E8205B64DA000389D8 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		7680F1EA205B64E6000389D8 /* FoundViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoundViewController.h; sourceTree = "<group>"; };
+		7680F1EB205B64E6000389D8 /* FoundViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoundViewController.m; sourceTree = "<group>"; };
+		7680F1ED205B64F2000389D8 /* DirectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DirectViewController.h; sourceTree = "<group>"; };
+		7680F1EE205B64F2000389D8 /* DirectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirectViewController.m; sourceTree = "<group>"; };
+		7680F1F0205B64FB000389D8 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		7680F1F1205B64FB000389D8 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		7680F1F3205B656B000389D8 /* ZZWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZWebViewController.h; sourceTree = "<group>"; };
+		7680F1F4205B656B000389D8 /* ZZWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZWebViewController.m; sourceTree = "<group>"; };
+		7680F1F6205B6581000389D8 /* ShoppingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingViewController.h; sourceTree = "<group>"; };
+		7680F1F7205B6581000389D8 /* ShoppingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingViewController.m; sourceTree = "<group>"; };
+		7680F1F9205B660E000389D8 /* ZZNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZNavigationController.h; sourceTree = "<group>"; };
+		7680F1FA205B660E000389D8 /* ZZNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZNavigationController.m; sourceTree = "<group>"; };
+		7680F1FC205B6D47000389D8 /* ZZCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZCommon.h; sourceTree = "<group>"; };
+		7680F1FD205B7181000389D8 /* ZZTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZTabBarController.h; sourceTree = "<group>"; };
+		7680F1FE205B7181000389D8 /* ZZTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +126,9 @@
 		7680F19B205B4DF3000389D8 /* PeiPeiProject */ = {
 			isa = PBXGroup;
 			children = (
-				7680F19C205B4DF3000389D8 /* AppDelegate.h */,
-				7680F19D205B4DF3000389D8 /* AppDelegate.m */,
-				7680F19F205B4DF3000389D8 /* ViewController.h */,
-				7680F1A0205B4DF3000389D8 /* ViewController.m */,
-				7680F1A2205B4DF3000389D8 /* Main.storyboard */,
-				7680F1A5205B4DF3000389D8 /* Assets.xcassets */,
-				7680F1A7205B4DF3000389D8 /* LaunchScreen.storyboard */,
-				7680F1AA205B4DF3000389D8 /* Info.plist */,
-				7680F1AB205B4DF3000389D8 /* main.m */,
+				7680F1CF205B60BF000389D8 /* Common */,
+				7680F1D0205B60BF000389D8 /* Controller */,
+				7680F1CE205B60BF000389D8 /* Supporting Files */,
 			);
 			path = PeiPeiProject;
 			sourceTree = "<group>";
@@ -130,6 +149,109 @@
 				7680F1C2205B4DF3000389D8 /* Info.plist */,
 			);
 			path = PeiPeiProjectUITests;
+			sourceTree = "<group>";
+		};
+		7680F1CE205B60BF000389D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7680F19C205B4DF3000389D8 /* AppDelegate.h */,
+				7680F19D205B4DF3000389D8 /* AppDelegate.m */,
+				7680F1A2205B4DF3000389D8 /* Main.storyboard */,
+				7680F1A5205B4DF3000389D8 /* Assets.xcassets */,
+				7680F1A7205B4DF3000389D8 /* LaunchScreen.storyboard */,
+				7680F1AA205B4DF3000389D8 /* Info.plist */,
+				7680F1AB205B4DF3000389D8 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7680F1CF205B60BF000389D8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7680F1D0205B60BF000389D8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7680F1E2205B6493000389D8 /* Tools */,
+				7680F1D2205B616E000389D8 /* Main */,
+				7680F1E3205B649D000389D8 /* Home */,
+				7680F1D4205B616E000389D8 /* Shopping */,
+				7680F1D3205B616E000389D8 /* Found */,
+				7680F1D1205B616E000389D8 /* Direct */,
+				7680F1D5205B616E000389D8 /* Mine */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7680F1D1205B616E000389D8 /* Direct */ = {
+			isa = PBXGroup;
+			children = (
+				7680F1ED205B64F2000389D8 /* DirectViewController.h */,
+				7680F1EE205B64F2000389D8 /* DirectViewController.m */,
+			);
+			path = Direct;
+			sourceTree = "<group>";
+		};
+		7680F1D2205B616E000389D8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7680F1E4205B64C7000389D8 /* ParentViewController.h */,
+				7680F1E5205B64C7000389D8 /* ParentViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7680F1D3205B616E000389D8 /* Found */ = {
+			isa = PBXGroup;
+			children = (
+				7680F1EA205B64E6000389D8 /* FoundViewController.h */,
+				7680F1EB205B64E6000389D8 /* FoundViewController.m */,
+			);
+			path = Found;
+			sourceTree = "<group>";
+		};
+		7680F1D4205B616E000389D8 /* Shopping */ = {
+			isa = PBXGroup;
+			children = (
+				7680F1F6205B6581000389D8 /* ShoppingViewController.h */,
+				7680F1F7205B6581000389D8 /* ShoppingViewController.m */,
+			);
+			path = Shopping;
+			sourceTree = "<group>";
+		};
+		7680F1D5205B616E000389D8 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				7680F1F0205B64FB000389D8 /* MineViewController.h */,
+				7680F1F1205B64FB000389D8 /* MineViewController.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		7680F1E2205B6493000389D8 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				7680F1F3205B656B000389D8 /* ZZWebViewController.h */,
+				7680F1F4205B656B000389D8 /* ZZWebViewController.m */,
+				7680F1F9205B660E000389D8 /* ZZNavigationController.h */,
+				7680F1FA205B660E000389D8 /* ZZNavigationController.m */,
+				7680F1FD205B7181000389D8 /* ZZTabBarController.h */,
+				7680F1FE205B7181000389D8 /* ZZTabBarController.m */,
+				7680F1FC205B6D47000389D8 /* ZZCommon.h */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		7680F1E3205B649D000389D8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7680F1E7205B64DA000389D8 /* HomeViewController.h */,
+				7680F1E8205B64DA000389D8 /* HomeViewController.m */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +387,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7680F1A1205B4DF3000389D8 /* ViewController.m in Sources */,
+				7680F1FF205B7181000389D8 /* ZZTabBarController.m in Sources */,
 				7680F1AC205B4DF3000389D8 /* main.m in Sources */,
+				7680F1F8205B6581000389D8 /* ShoppingViewController.m in Sources */,
+				7680F1F5205B656B000389D8 /* ZZWebViewController.m in Sources */,
+				7680F1F2205B64FB000389D8 /* MineViewController.m in Sources */,
 				7680F19E205B4DF3000389D8 /* AppDelegate.m in Sources */,
+				7680F1E6205B64C7000389D8 /* ParentViewController.m in Sources */,
+				7680F1E9205B64DA000389D8 /* HomeViewController.m in Sources */,
+				7680F1FB205B660E000389D8 /* ZZNavigationController.m in Sources */,
+				7680F1EC205B64E6000389D8 /* FoundViewController.m in Sources */,
+				7680F1EF205B64F2000389D8 /* DirectViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,7 +562,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YMPDC8HZN7;
-				INFOPLIST_FILE = PeiPeiProject/Info.plist;
+				INFOPLIST_FILE = "PeiPeiProject/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "daYouTechnology-Co.--Ltd..PeiPeiProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,7 +576,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YMPDC8HZN7;
-				INFOPLIST_FILE = PeiPeiProject/Info.plist;
+				INFOPLIST_FILE = "PeiPeiProject/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "daYouTechnology-Co.--Ltd..PeiPeiProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
