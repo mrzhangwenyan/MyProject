@@ -17,10 +17,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+
     UILabel *aLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 120, 60, 35)];
     aLabel.textColor = [UIColor redColor];
     aLabel.text = @"第一个";
     [self.view addSubview:aLabel];
+    
+    UILabel *bLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 140, 60, 35)];
+    bLabel.textColor = [UIColor brownColor];
+    bLabel.text = @"第二个";
+    [self.view addSubview:bLabel];
 }
 
 - (void)didReceiveMemoryWarning {
